@@ -7,11 +7,12 @@ Console.Write("Print number a: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.Write("Print number b: ");
 int b = int.Parse(Console.ReadLine()!);
+
 if (a > b)
 {
-    Console.Write("max = a, min = b");
+    Console.Write("max = a");
 }
 else
 {
-    Console.Write("max = b, min = a");
+    Console.Write("max = b");
 }
