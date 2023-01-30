@@ -4,12 +4,10 @@
 
 Console.WriteLine("Enter posive number: ");
 int N = int.Parse(Console.ReadLine()!);
-int K = 1;
+int K = 2;
 while (K <= N)
 {
-    if(K %2 == 0)
-    {
-        Console.Write($"{K} "); 
-    }
-        K += 1; 
+    Console.Write($"{K} ");
+
+    K += 2;
 }
